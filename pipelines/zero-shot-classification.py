@@ -1,4 +1,4 @@
-# Available Models: https://huggingface.co/models?pipeline_tag=zero-shot-classification&sort=trending
+# Zero-Shot Classification Models: https://huggingface.co/models?pipeline_tag=zero-shot-classification&sort=trending
 
 from transformers import pipeline
 
