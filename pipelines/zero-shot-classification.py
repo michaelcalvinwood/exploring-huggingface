@@ -1,3 +1,5 @@
+# Available Models: https://huggingface.co/models?pipeline_tag=zero-shot-classification&sort=trending
+
 from transformers import pipeline
 
 classifier = pipeline("zero-shot-classification")
