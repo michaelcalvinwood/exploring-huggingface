@@ -16,3 +16,14 @@ result = saved_classifier(
 )
 
 print(result)
+
+# Another Way to Load Saved Pipeline Models
+
+# from transformers import pipeline, AutoModel, AutoTokenizer
+
+# model = AutoModel.from_pretrained('/path/to/your/model')
+# tokenizer = AutoTokenizer.from_pretrained('/path/to/your/tokenizer')
+
+# pipe = pipeline(task='summarization',  # replace with whatever task you have
+#                 model=model,
+#                 tokenizer=tokenizer)
